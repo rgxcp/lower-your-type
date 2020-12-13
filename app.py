@@ -11,7 +11,7 @@ def lower_the_extension():
             for filename in filenames:
                 filename_path = os.path.join(dirpath, filename)
                 name, extension = os.path.splitext(filename_path)
-                if filename.endswith(extension.upper()):
+                if not filename.endswith(extension.lower()):
                     lowered_extension_filename_path = name + extension.lower()
                     os.rename(filename_path, lowered_extension_filename_path)
                     total += 1
