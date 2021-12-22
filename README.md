@@ -1,7 +1,5 @@
-# 🧘 Python - Lower Your Type
-**EN**: Program for changing file name extension in directories to lower case.
-
-**ID**: Program untuk mengubah ekstensi nama file dalam direktori menjadi huruf kecil.
+# 🧘 Lower Your Type
+Program for changing file name extension in directories to lower case.
 
 ## Status
 END OF LIFE
